@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sunrin.myapplication.Activity.AddPhotoActivity">
+    <include layout="@layout/toolbar_basic"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_date"
+            android:gravity="center|left"
+            tools:text="2018.06.12"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <Spinner
+            android:id="@+id/spinner_album"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:background="@color/cardColor"
+            android:padding="100dp"
+            android:id="@+id/btn_image"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <ScrollView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <EditText
+                android:id="@+id/edit_info"
+                android:hint="사진에 대한 설명을 입력하세요"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
