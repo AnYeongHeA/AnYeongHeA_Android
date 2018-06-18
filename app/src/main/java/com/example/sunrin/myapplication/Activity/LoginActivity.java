@@ -44,9 +44,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String school = edit_school.getText().toString();
-                String identity = edit_school.getText().toString();
-                String birth = edit_school.getText().toString();
-                String password = edit_school.getText().toString();
+                String identity = edit_identity.getText().toString();
+                String birth = edit_birth.getText().toString();
+                String password = edit_password.getText().toString();
 
                 if((birth.length() != 8) || password.length() < 8){
                     Toast.makeText(LoginActivity.this, "Try Again", Toast.LENGTH_LONG).show();

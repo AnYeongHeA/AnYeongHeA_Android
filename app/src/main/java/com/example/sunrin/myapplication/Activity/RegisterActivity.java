@@ -44,9 +44,9 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String school = edit_school.getText().toString();
-                String identity = edit_school.getText().toString();
-                String birth = edit_school.getText().toString();
-                String password = edit_school.getText().toString();
+                String identity = edit_identity.getText().toString();
+                String birth = edit_birth.getText().toString();
+                String password = edit_password.getText().toString();
 
                 if((birth.length() != 8) || (password.length() < 8) || (password.length() > 16)){
                     Toast.makeText(RegisterActivity.this, "생일은 8자리 숫자, 비밀번호는 8 ~ 16자로 입력해주세요.", Toast.LENGTH_LONG).show();

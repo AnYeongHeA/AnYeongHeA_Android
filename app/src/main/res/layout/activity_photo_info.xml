@@ -12,20 +12,20 @@
         android:layout_margin="16dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
-            android:id="@+id/txt_date"
-            android:gravity="center|left"
-            tools:text="2018.06.12"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
-        <TextView
-            android:id="@+id/txt_album"
-            android:gravity="center|left"
-            tools:text="졸업사진첩"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+        <!--<TextView-->
+            <!--android:id="@+id/txt_date"-->
+            <!--android:gravity="center|left"-->
+            <!--tools:text="2018.06.12"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/txt_album"-->
+            <!--android:gravity="center|left"-->
+            <!--tools:text="졸업사진첩"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp" />-->
         <ImageView
             android:background="@color/cardColor"
             android:id="@+id/img_image"
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp">
             <TextView
-                android:id="@+id/txt_info"
+                android:id="@+id/txt_infoo"
                 tools:text=
                     "
                     사진에 대한 설명입니다
